@@ -45,6 +45,15 @@ footer a{
     padding: 10px;
 }
 
+#frm-inscripcion  * {
+    display: inline-block;
+   
+   }
+
+#contenido form{
+    border: 2px solid #FDCC00;
+    padding: 10px;
+}
 
 #contenido table {
     margin: auto;
@@ -109,10 +118,7 @@ footer a{
 }
 
 
-#contenido form * {
- display: inline-block;
 
-}
 
 input[type="text"], select {
     margin-bottom: 15px;
@@ -132,4 +138,16 @@ font-size: 15px;
 text-transform: uppercase;
 border: 1px solid black;
 cursor: pointer;
+}
+
+#contenidoContactos form {
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+
+}
+
+#contenidoContactos table {
+    margin: auto;
 }
